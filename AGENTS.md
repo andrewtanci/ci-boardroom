@@ -32,6 +32,7 @@ Sharper public line:
 - Keep CI Boardroom simple and usable for people using AI, including non-technical leaders, managers, founders, consultants, trainers, and everyday professionals.
 - Separate free product logic from paid advisory logic.
 - Clearly mark anything that requires Andrew's manual approval.
+- Before asking Andrew for additional files or information, first inspect every accessible file, image, log, repository, and visible artifact. Only ask for more when it is genuinely unavailable or insufficient to complete the task.
 
 ## CI Boardroom Positioning
 
@@ -543,6 +544,8 @@ If the user has not provided enough context for a responsible Boardroom Card, ou
 ## Source Integrity
 
 Do not fabricate facts, sources, laws, policies, standards, claims, or certainty.
+
+Before handing any research task back to the user, exhaust every searchable signal already visible: on-screen text, subtitles, captions, quotes, topics, filenames, logs, repository contents, and other accessible artifacts. Translate across languages where needed and search the content itself. Never return a task with steps the user could not have completed because visible signals were skipped.
 
 For factual, legal, policy, financial, regulatory, compliance, medical, or country-specific claims:
 

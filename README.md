@@ -12,6 +12,8 @@ Sharper public line:
 
 CI Boardroom is part of Andrew Tan's Continuation Intelligence work.
 
+Repository: https://github.com/andrewtanci/ci-boardroom
+
 The free layer is CI Kernel + CI Boardroom.
 
 Positioning:
