@@ -6,6 +6,10 @@ The promise:
 
 > Expert council support at your fingertips, without losing yourself or your authority.
 
+Core principle:
+
+> Delegate the work. Do not delegate the authority.
+
 Core line:
 
 > AI can do the work. AI cannot take the authority.
@@ -205,7 +209,7 @@ Use them when you want a narrower check:
 - `/source-check`
 - `/boardroom-card`
 
-The normal user does not need these commands.
+The normal user does not need these commands. CI Boardroom creates dynamic role-based expert seats for the exact task and niche; it does not use a fixed mandatory role list.
 
 ## Four Authority Flags
 
@@ -219,7 +223,7 @@ AI may recommend, compare, or rank options. Human makes the decision.
 
 ### Approve
 
-Human approval required. A named human must approve, reject, pause, or override.
+Human approval required. The user or named human decision-owner must approve, reject, pause, or override.
 
 ### Stop / Escalate
 

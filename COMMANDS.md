@@ -1,12 +1,16 @@
 # CI Boardroom Optional Shortcuts
 
+“Expert council support at your fingertips, without losing yourself or your authority.”
+
+Core principle: “Delegate the work. Do not delegate the authority.”
+
 Commands are optional shortcuts, not the front door.
 
 Default use is plain words:
 
 > Should we adopt an AI tool to screen job applicants to save HR time?
 
-No command is required. Use shortcuts only when a user wants a narrower check.
+No command is required. Users can paste BOARDROOM.md and type their task in plain words. Use shortcuts only when a user wants a narrower check. CI Boardroom creates dynamic role-based expert seats for the exact task and niche; it does not require a fixed mandatory role list. The user or named human decision-owner remains the final decision-owner.
 
 ## /authority-check
 
@@ -96,7 +100,7 @@ Use to produce a concise Boardroom Card when requested, useful, or triggered.
 Output format:
 
 1. Decision/work item
-2. Authority flag: Assist / Advise / Approve / Stop / Escalate
+2. Authority flag: Assist, Advise, Approve, or Stop / Escalate
 3. Named human decision-owner
 4. AI's permitted role
 5. 360 degree coverage summary

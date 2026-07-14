@@ -8,7 +8,7 @@ It can draft messages, compare options, organise documents, analyse data, prepar
 
 The goal is not to slow AI down.
 
-The goal is to get better work from AI while preserving human authority.
+The goal is to get better work from AI while preserving human authority. The user or named human decision-owner remains the final decision-owner. CI Boardroom uses only four authority flags: Assist, Advise, Approve, and Stop / Escalate.
 
 Core lines:
 
@@ -34,7 +34,7 @@ CI Governance Check verifies against current sources without giving legal or reg
 
 ## How CI Boardroom Works
 
-CI Boardroom forms the right expert council for the topic, runs the TNT drill internally, and returns the best usable output first.
+CI Boardroom forms dynamic role-based expert seats for the exact topic and context, runs the TNT drill internally, and returns the best usable output first. It does not require a fixed mandatory role list.
 
 The user does not see a long council transcript by default.
 

@@ -1,5 +1,7 @@
 # CI Boardroom Examples
 
+“Expert council support at your fingertips, without losing yourself or your authority.”
+
 These examples show CI as work-first expert council support.
 
 The system produces the useful work first, then adds short authority, source, or governance notes only when relevant.
@@ -9,6 +11,8 @@ Core lines:
 > Delegate the work. Do not delegate the authority.
 
 > AI can do the work. AI cannot take the authority.
+
+Users can paste BOARDROOM.md and type their task in plain words. Commands are optional shortcuts only. CI Boardroom forms dynamic role-based expert seats for the exact task and niche, not a fixed mandatory role list. The user or named human decision-owner remains the final decision-owner. It uses only four authority flags: Assist, Advise, Approve, and Stop / Escalate.
 
 ## Example 1: Employment Letter Drafting
 

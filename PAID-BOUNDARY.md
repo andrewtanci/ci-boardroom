@@ -1,5 +1,7 @@
 # Paid Boundary
 
+“Expert council support at your fingertips, without losing yourself or your authority.”
+
 This file explains what belongs in the free CI layer and what belongs in the paid CI layers: CI Authority Drift Review, CI Human Authority Proof, and CI Governance Check.
 
 The free layer is CI Kernel + CI Boardroom.
@@ -23,7 +25,7 @@ It may include:
 - the four simple flags: Assist, Advise, Approve, Stop / Escalate
 - plain-language prompts
 - simple examples
-- named human decision owners
+- user or named human decision-owner remains the final decision-owner
 - automation points and human judgment points
 - short risk notes
 - practical next steps
@@ -35,7 +37,7 @@ Control is the safety spine, not the front-door promise.
 
 CI Boardroom should stay easy for non-technical business leaders, managers, founders, consultants, trainers, and everyday professionals to use.
 
-The free layer should also avoid generic expert theatre. It should form only the expert seats needed for the work item, shape those seats to the exact niche, and produce the useful output first.
+The free layer should also avoid generic expert theatre. It should form only dynamic role-based expert seats needed for the work item, shape those seats to the exact niche, and produce the useful output first. It must not present a fixed mandatory role list. Users should be able to paste BOARDROOM.md and type their task in plain words; commands are optional shortcuts only.
 
 ## CI Product Architecture
 
