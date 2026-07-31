@@ -1,0 +1,17 @@
+{
+  "name": "ci-boardroom",
+  "owner": {
+    "name": "Andrew Tan"
+  },
+  "plugins": [
+    {
+      "name": "ci-boardroom",
+      "source": "./",
+      "description": "Expert council decision support that preserves named human authority.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Andrew Tan"
+      }
+    }
+  ]
+}
