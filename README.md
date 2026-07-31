@@ -16,6 +16,12 @@ CI Boardroom turns an AI into a dynamic expert council that challenges weak thin
 2. Paste it into any AI: ChatGPT, Claude, Gemini, Kimi, Qwen or DeepSeek.
 3. Type your task in plain words. No commands needed.
 
+## Install options
+
+- **Universal paste:** copy [BOARDROOM.md](BOARDROOM.md) into any supported AI.
+- **Claude Code / Claude.ai / ChatGPT / Codex:** follow the one-page [INSTALL.md](INSTALL.md).
+- **Get updates:** click **Watch → Custom → Releases**. Pasted copies do not auto-update; the latest file always lives here.
+
 ## What it does
 
 CI Boardroom helps you get stronger AI work without handing over the final call. It:
