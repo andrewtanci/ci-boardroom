@@ -1,3 +1,5 @@
+CI Boardroom · Version 1.0.0 · Latest version always at github.com/andrewtanci/ci-boardroom · Companion tools: CI Perpetual Kernel (continuity across threads).
+
 # CI Boardroom — Operating Instructions
 
 **Expert council support at your fingertips, without losing yourself or your authority.**
