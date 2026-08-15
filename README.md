@@ -30,6 +30,15 @@ Run the [Accuracy Level 1 behaviour tests](CI-ACCURACY-TESTS.md) before relying 
 
 Boardroom retains a compact accuracy gate, but Accuracy Level 1 is the recommended first lesson and standalone installation.
 
+## Install as a reusable Skill
+
+- **Codex:** one Terminal command installs the public `SKILL.md` locally.
+- **Claude Code:** install from this repository's plugin marketplace manifest.
+- **Other AI clients:** keep using the universal-paste route.
+
+See [INSTALL.md](INSTALL.md) for the exact steps.
+
+The Skill is a transparent, reusable instruction package—not a separate AI model. Compatible clients discover and load it automatically; `BOARDROOM.md` remains the canonical readable specification.
 ## What it does
 
 CI Boardroom helps you get stronger AI work without handing over the final call. It:
