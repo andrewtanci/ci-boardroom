@@ -10,11 +10,25 @@ Core principle:
 
 CI Boardroom turns an AI into a dynamic expert council that challenges weak thinking, checks sources and produces stronger work while preserving human authority.
 
-## Quick start — 30 seconds
+## Start here
+
+Use the Continuation Intelligence sequence:
+
+**Accuracy Level 1 → Kernel → Boardroom**
+
+1. Start with [CI Accuracy Level 1](CI-ACCURACY-LEVEL-1.md) so the AI prioritises accuracy over agreement.
+2. Use the separate [CI Perpetual Kernel](https://github.com/andrewtanci/ci-perpetual-kernel) to preserve verified facts, decisions and clean handovers.
+3. Open [BOARDROOM.md](BOARDROOM.md), copy the whole file and paste it into the AI for expert-council support.
+
+Run the [Accuracy Level 1 behaviour tests](CI-ACCURACY-TESTS.md) before relying on a new model or setup.
+
+## Quick start — Boardroom only
 
 1. Open [BOARDROOM.md](BOARDROOM.md) and copy the whole file.
 2. Paste it into any AI: ChatGPT, Claude, Gemini, Kimi, Qwen or DeepSeek.
 3. Type your task in plain words. No commands needed.
+
+Boardroom retains a compact accuracy gate, but Accuracy Level 1 is the recommended first lesson and standalone installation.
 
 ## What it does
 
@@ -29,6 +43,8 @@ CI Boardroom helps you get stronger AI work without handing over the final call.
 
 Useful links:
 
+- [CI Accuracy Level 1](CI-ACCURACY-LEVEL-1.md)
+- [Accuracy behaviour tests](CI-ACCURACY-TESTS.md)
 - [Examples](EXAMPLES.md)
 - [Paid Boundary](PAID-BOUNDARY.md)
 - [Start Here](START-HERE.md)
@@ -37,6 +53,7 @@ Useful links:
 
 CI Boardroom 是一个专家顾问团支持工具。
 核心原则：把工作交给AI，但不交出决定权。
+建议顺序：准确性第一层 → CI Kernel → CI Boardroom。
 使用方法：复制 BOARDROOM.md 文件 → 粘贴到任何AI（ChatGPT、Claude、Gemini、Kimi、Qwen、DeepSeek）→ 用中文或英文输入你的任务。
 最终决定权始终属于用户或指定的人类决策负责人。
 
@@ -52,9 +69,11 @@ CI Boardroom is part of the Continuation Intelligence ecosystem. CI Perpetual Ke
 
 ## Test it
 
-Give CI Boardroom a real task: a draft, plan, reply, comparison, recommendation, critique, source check or decision input.
+First run the [Accuracy Level 1 behaviour tests](CI-ACCURACY-TESTS.md).
 
-Failure-case challenge: if it still produces generic advice, open a GitHub issue and share the task or failure case so it can be improved. Do not include private, personal, client, employee, confidential or commercially sensitive information.
+Then give CI Boardroom a real task: a draft, plan, reply, comparison, recommendation, critique, source check or decision input.
+
+Failure-case challenge: if it still produces generic advice or unsupported agreement, open a GitHub issue and share the task or failure case so it can be improved. Do not include private, personal, client, employee, confidential or commercially sensitive information.
 
 ## Support the project
 
