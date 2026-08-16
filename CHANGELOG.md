@@ -10,6 +10,7 @@ All notable changes to the CI Boardroom package are recorded here.
 - included the Multi-Factor Reality & Outcome and Marginal Gains, Timing & Habit gates
 - published the twelve-test outcome regression benchmark
 - preserved universal-paste use alongside installable Skill routes
+- bundled both referenced rider files inside the installable Skill folder and updated installation to fetch the complete self-contained package
 
 The behavioural tests are evaluation cases, not proof of universal model performance. Each model and setup still requires validation.
 
