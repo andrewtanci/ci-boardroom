@@ -2,19 +2,32 @@
 
 **Delegate the work. Do not delegate the authority.**
 
-CI Boardroom remains usable by copy and paste, and is now also packaged as a reusable Skill.
+CI Boardroom remains usable by copy and paste, and is now also packaged as a reusable, self-contained Skill. The installable folder contains `SKILL.md` and both referenced rider files.
 
-## 1. Codex Skill — one command
+## 1. Codex Skill — complete self-contained package
 
 Run this in Terminal:
 
 ```bash
-mkdir -p "$HOME/.codex/skills/ci-boardroom" && \
-curl -fsSL https://raw.githubusercontent.com/andrewtanci/ci-boardroom/main/skills/ci-boardroom/SKILL.md \
-  -o "$HOME/.codex/skills/ci-boardroom/SKILL.md"
+install_dir="$HOME/.codex/skills/ci-boardroom"
+base_url="https://raw.githubusercontent.com/andrewtanci/ci-boardroom/main/skills/ci-boardroom"
+
+mkdir -p "$install_dir"
+
+for file in \
+  SKILL.md \
+  CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md \
+  CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md
+do
+  curl -fsSL "$base_url/$file" -o "$install_dir/$file" || exit 1
+done
+
+test -s "$install_dir/SKILL.md" && \
+test -s "$install_dir/CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md" && \
+test -s "$install_dir/CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md"
 ```
 
-Inspect the downloaded file, then start a new Codex session. Ask naturally, or say: `Use CI Boardroom on this.`
+Inspect the three downloaded files, then start a new Codex session. Ask naturally, or say: `Use CI Boardroom on this.`
 
 ## 2. Claude Code plugin
 
@@ -30,7 +43,13 @@ Then ask naturally or invoke the CI Boardroom skill.
 
 ## 3. Claude.ai custom Skill
 
-Download [skills/ci-boardroom/SKILL.md](skills/ci-boardroom/SKILL.md), place it in a folder named `ci-boardroom`, compress that folder as a ZIP, then upload the ZIP through Claude.ai's Skills interface if your account supports custom Skills.
+Download all three files into one folder named `ci-boardroom`:
+
+- [SKILL.md](skills/ci-boardroom/SKILL.md)
+- [Multi-Factor Reality & Outcome Rider](skills/ci-boardroom/CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md)
+- [Marginal Gains, Timing & Habit Leverage Rider](skills/ci-boardroom/CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md)
+
+Compress the complete `ci-boardroom` folder as a ZIP, then upload the ZIP through Claude.ai's Skills interface if your account supports custom Skills.
 
 ## 4. Universal paste — works across models
 
@@ -50,6 +69,6 @@ A Skill is a reusable instruction package with discovery metadata. Its core is s
 ## Updates and verification
 
 - Pasted copies do not auto-update.
-- Re-run the Codex command above to replace the local copy with the current public version.
+- Re-run the complete Codex installation block above to replace all three local package files with the current public version.
 - Before relying on a new model or setup, run the published Accuracy and Outcome behavioural tests.
 - Test files are regression benchmarks, not guarantees of universal performance.

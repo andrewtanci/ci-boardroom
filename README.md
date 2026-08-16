@@ -38,6 +38,8 @@ Boardroom retains a compact accuracy gate, but Accuracy Level 1 is the recommend
 
 See [INSTALL.md](INSTALL.md) for the exact steps.
 
+The installable Skill folder is self-contained: it includes `SKILL.md`, the Multi-Factor Reality & Outcome Rider, and the Marginal Gains, Timing & Habit Leverage Rider.
+
 The Skill is a transparent, reusable instruction package—not a separate AI model. Compatible clients discover and load it automatically; `BOARDROOM.md` remains the canonical readable specification.
 ## What it does
 
