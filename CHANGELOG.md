@@ -11,6 +11,7 @@ All notable changes to the CI Boardroom package are recorded here.
 - published the twelve-test outcome regression benchmark
 - preserved universal-paste use alongside installable Skill routes
 - bundled both referenced rider files inside the installable Skill folder and updated installation to fetch the complete self-contained package
+- staged and validated the complete package before replacement, contained failures in a subshell, and preserved the previous installation if replacement fails
 
 The behavioural tests are evaluation cases, not proof of universal model performance. Each model and setup still requires validation.
 
