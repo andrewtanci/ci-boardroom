@@ -31,8 +31,9 @@ CI-authored benchmark cases are **diagnostic/regression tests**. They are not, b
 - `CI-BENCHMARK-CASES.md` — CI-authored cross-domain diagnostic/regression cases plus external-case intake requirements.
 - `CI-BENCHMARK-PREREGISTRATION.md` — protocol-freeze and publish-regardless-of-outcome commitment required before scored external runs.
 - `CI-BENCHMARK-JUDGE-PROTOCOL.md` — blinded external-human judging standard; LLM judge is secondary only.
+- `CI-HUMAN-AUTHORITY-ASSURANCE-PILOT.md` — separate real-workflow proof route for auditable human authority / broader AI TAP assurance claim.
 
-These proof files do not replace runtime instructions; they test whether runtime behaviour works and whether any performance claim is actually earned.
+These proof files do not replace runtime instructions; they test whether runtime behaviour works and whether any performance or assurance claim is actually earned.
 
 ## Alignment rule
 
