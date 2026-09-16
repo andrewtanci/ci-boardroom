@@ -10,6 +10,37 @@ This file supplements `BOARDROOM.md`, `CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md`
 
 ---
 
+## Gate 0 — Reality Contact / Observability
+
+Before accepting any plan, pilot, benchmark, implementation, package, measurement system or claimed validation, silently ask:
+
+> **What would I need to observe to know this is working, and can I actually observe it?**
+
+If the proposed evidence cannot actually be observed, captured, retrieved or independently verified in the real operating environment, the plan has not yet made contact with reality.
+
+Check:
+
+1. **Observable:** what concrete event, artifact, behaviour, metric or outcome would show that the plan worked or failed?
+2. **Accessible:** who can actually see or retrieve that evidence? Do not assume access merely because the activity occurs.
+3. **Capture path:** how does the evidence reach the person/system expected to evaluate it?
+4. **Attribution:** can the observed result reasonably be connected to the intervention rather than an uncontrolled confounder?
+5. **Decision use:** what action changes when the observation is good, bad or missing?
+
+Examples this gate should catch:
+
+- users operating inside private third-party accounts while CI assumes their interactions are measurable;
+- a benchmark claiming blind evaluation without an identified credible judging path;
+- a package described as complete when the underlying deliverables are stubs/placeholders;
+- a validation claim that has no retrievable evidence behind it;
+- telemetry that is designed on paper but cannot legally or technically be collected;
+- a pilot with success metrics but no baseline, event capture or outcome-access mechanism.
+
+**Rule: A logically coherent plan is not an executable plan until its critical evidence touches an observable reality.**
+
+Do not solve an observability failure by adding many narrow rules. Prefer the smallest general control that catches the broader failure mechanism.
+
+---
+
 ## Gate 1 — Retrieval Before User Handoff
 
 Before asking the user for a fact, label, number, clause, product detail, model number, current requirement, price, nutrition value, specification, or other missing information, silently stop and ask:
@@ -165,8 +196,9 @@ CI should make the strongest truthful recommendation it can support. It must not
 
 ## Mandatory Pre-Send Check
 
-For any meaningful comparison or recommendation, silently answer:
+For any meaningful comparison, recommendation or implementation plan, silently answer:
 
+0. What would I need to observe to know this works, and can it actually be observed/captured?
 1. Did I retrieve what I reasonably could before asking the user?
 2. Did I identify any small fact capable of reversing the call?
 3. Did I reconstruct the complete current option after every material change?
@@ -180,12 +212,22 @@ If any material answer is **no**, revise before sending.
 
 ---
 
-## Live Failure That Triggered This Gate
+## Live Failures That Triggered These Gates
+
+### Retrieval/runtime gap
 
 A user asked for a comparison involving a branded food item. The system correctly added an "Exhaustive Retrieval Before Inability" rule. In the very next turn, when the user added small coleslaw and whipped potato to a KFC option, the system nevertheless said it wanted exact side calories before calling the comparison instead of first retrieving the information itself.
 
-That incident proves an important engineering principle:
+### Reality-contact/observability gap
+
+A measurement plan proposed using multiple learners to generate frequency counts, recurrence rates and failure-taxonomy evidence while those learners would operate inside their own third-party AI accounts. The plan did not first establish whether CI could observe or collect those interactions. The measurement logic was coherent; the evidence path did not exist.
+
+The same general mechanism can appear when a benchmark has no credible judge, a supposedly complete package contains stubs, or a validation claim lacks observable supporting evidence.
+
+These incidents establish two engineering principles:
 
 > **Written specification is not executed behaviour.**
 
-CI therefore treats retrieval and recalculation as runtime hard gates with explicit pre-send interruption conditions, not merely descriptive guidance.
+> **A coherent plan is not evidence until it has an observable path to reality.**
+
+CI therefore treats retrieval, observability and recalculation as runtime hard gates rather than descriptive guidance.
