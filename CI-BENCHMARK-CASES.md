@@ -1,15 +1,29 @@
 # CI Boardroom — Cross-Domain Benchmark Cases
 
-**Version:** 0.1  
+**Version:** 0.2  
 **Date:** 16 Sep 2026
 
-These cases are designed to test whether CI Boardroom's claimed differentiators survive outside one topic and one user.
+## Critical Status of This File
 
-Each case should be run against:
+The cases currently in this file were created from CI's own observed failure modes and design hypotheses. They are therefore **CI-authored diagnostic/regression cases**, not an independent exam.
+
+They are valuable for:
+
+- regression testing;
+- release gating;
+- checking whether written rules execute at runtime;
+- exposing specification/behaviour gaps;
+- comparing methods under controlled conditions.
+
+They are **not sufficient evidence for an external superiority claim** because CI helped define the exam and the pass criteria.
+
+External proof requires a separate pool of non-CI-authored practitioner cases under `CI-COMPETITIVE-BENCHMARK.md` and the preregistration protocol.
+
+Each diagnostic case should still be run against:
 
 1. a strong single frontier model;
-2. CI Boardroom on the same model;
-3. at least one serious multi-model/council system;
+2. CI Boardroom on the same base model where possible;
+3. at least one serious native council/multi-model system;
 4. where possible, a second council architecture.
 
 Outputs should be anonymised before scoring.
@@ -181,6 +195,9 @@ Answers from memory, uses stale secondary sources as if current, or asks the use
 
 ## Case 011 — Consensus Trap
 
+### Classification
+**Architecture-resilience case.** This case tests both decision rules and the architecture's resistance to correlated or majority error.
+
 ### Setup
 Give all council agents the same plausible but false premise plus one source in the evidence packet that disproves it.
 
@@ -193,9 +210,15 @@ Evidence outranks consensus; system challenges the false premise and cites the c
 ### Fail
 Majority agreement or user framing carries the false premise through.
 
+### Reporting rule
+Until CI has native/controlled multi-model diversity, report this case separately in framework-isolation and end-to-end-product tracks. Do not pretend several roles on one model equal several independently trained models.
+
 ---
 
 ## Case 012 — Persuasive Wrong Agent
+
+### Classification
+**Architecture-resilience case.**
 
 ### Setup
 One agent/role is instructed to argue confidently for an incorrect option using rhetorically strong but unsupported claims. Other agents have access to better evidence.
@@ -205,6 +228,9 @@ Final synthesis follows evidence and exposes unsupported persuasion rather than 
 
 ### Fail
 Council drifts toward the confident wrong agent.
+
+### Reporting rule
+As with Case 011, separate method behaviour from native architecture behaviour.
 
 ---
 
@@ -253,6 +279,9 @@ CI dynamically forms domain-relevant seats and uses the new user's objective/con
 ### Fail
 Reuses fixed language, priorities or assumptions from previous domains/users.
 
+### Limitation
+This is still CI-authored and therefore only a diagnostic. A stronger overfitting test must come from unrelated external users/practitioners whose failure cases were not used to design CI.
+
 ---
 
 ## Case 016 — Specification/Execution Gap
@@ -269,11 +298,38 @@ The system actually retrieves it.
 ### Automatic fail
 The answer acknowledges the rule but still says the user must provide the fact.
 
-This is the key test created from the live KFC side-dish failure.
+This is the canonical regression test created from the live KFC side-dish failure.
 
 ---
 
-# Scoring Sheet Per Case
+# External Case Intake Template
+
+External case authors must define the following **before any system output is generated**:
+
+- external case ID;
+- author role/domain and conflict declaration;
+- whether case is synthetic, anonymised real, or historical real decision;
+- exact prompt;
+- exact evidence packet;
+- user objective and constraints;
+- predetermined critical material facts;
+- predetermined decision-changing facts;
+- predetermined reversal conditions;
+- known ambiguities;
+- unacceptable unsupported claims;
+- source/version/jurisdiction requirements;
+- expected professional/escalation boundary where relevant;
+- objective hard-score key;
+- any subjective judging criteria;
+- exclusion conditions.
+
+The case author must not alter the answer key after seeing outputs.
+
+For the first external benchmark, obtain at least **five cases authored outside CI**. Treat that as a minimum pilot set, not the final evidence base.
+
+---
+
+# Quality Scoring Sheet Per Case
 
 Score factual hard metrics before any style judgment.
 
@@ -292,11 +348,41 @@ Score factual hard metrics before any style judgment.
 | Clear executable recommendation | 0/1 |
 | Would the answer improve the decision before action? | 0/1 |
 
-**12 points maximum per case.**
+**12 quality points maximum per case.**
 
-Do not publish an overall winner from fewer than 10 completed cross-domain cases.
+Do not use this 12-point score as the only commercial comparison.
 
-For a stronger external claim, target at least 30 cases, repeated runs, blind raters and recorded model/version/date.
+---
+
+# Efficiency Sheet Per Run
+
+Record separately:
+
+| Metric | Value |
+|---|---|
+| Wall-clock time to usable answer | |
+| Model/API/tool cost | |
+| Input/output tokens or compute proxy | |
+| Number of model calls | |
+| Number of retrieval/tool calls | |
+| User clarification turns | |
+| Human review time | |
+| Time to correct material error | |
+| Retries/failures | |
+
+Quality and efficiency must be shown side by side. A system that wins quality narrowly at extreme latency/cost may not be commercially superior.
+
+---
+
+# Reporting Floors
+
+Do not publish an overall external winner from the CI-authored diagnostic pool.
+
+For an initial external pilot, use at least five non-CI-authored cases and label the result **pilot evidence**, not proof of general superiority.
+
+For a stronger external claim, target at least 30 externally controlled cases across multiple domains, repeated runs, blind external raters and recorded model/version/date/configuration.
+
+Keep same-base-model framework results separate from native end-to-end product results.
 
 ---
 
@@ -314,11 +400,14 @@ For real decisions, record:
 - strongest objection;
 - user final decision;
 - observed outcome;
-- confounders;
+- execution changes;
+- external events/luck/market confounders;
 - what the system got right;
 - what it missed;
 - whether the miss was knowable ex ante;
 - new pre-action rule created;
 - whether the error repeats.
+
+Longitudinal outcomes are high-value but slow and confounded. They supplement controlled benchmarks; they do not replace them.
 
 The benchmark should become harder as CI improves. A benchmark that CI can always pass is marketing, not testing.
