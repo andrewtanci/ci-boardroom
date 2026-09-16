@@ -9,23 +9,63 @@ CI Boardroom remains usable by copy and paste, and is now also packaged as a reu
 Run this in Terminal:
 
 ```bash
-install_dir="$HOME/.codex/skills/ci-boardroom"
+skills_dir="$HOME/.codex/skills"
+install_dir="$skills_dir/ci-boardroom"
 base_url="https://raw.githubusercontent.com/andrewtanci/ci-boardroom/main/skills/ci-boardroom"
 
-mkdir -p "$install_dir"
+(
+  set -eu
 
-for file in \
-  SKILL.md \
-  CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md \
-  CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md
-do
-  curl -fsSL "$base_url/$file" -o "$install_dir/$file" || exit 1
-done
+  mkdir -p "$skills_dir"
+  stage_dir="$(mktemp -d "$skills_dir/.ci-boardroom-stage.XXXXXX")"
+  backup_root=""
 
-test -s "$install_dir/SKILL.md" && \
-test -s "$install_dir/CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md" && \
-test -s "$install_dir/CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md"
+  cleanup() {
+    if [ -n "$stage_dir" ] && [ -d "$stage_dir" ]; then
+      rm -rf "$stage_dir"
+    fi
+    if [ -n "$backup_root" ] && [ -d "$backup_root" ]; then
+      rm -rf "$backup_root"
+    fi
+  }
+  trap cleanup EXIT HUP INT TERM
+
+  for file in \
+    SKILL.md \
+    CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md \
+    CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md
+  do
+    curl -fsSL "$base_url/$file" -o "$stage_dir/$file"
+  done
+
+  test -s "$stage_dir/SKILL.md"
+  test -s "$stage_dir/CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md"
+  test -s "$stage_dir/CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md"
+
+  backup_root="$(mktemp -d "$skills_dir/.ci-boardroom-backup.XXXXXX")"
+
+  if [ -d "$install_dir" ]; then
+    mv "$install_dir" "$backup_root/ci-boardroom"
+  fi
+
+  if mv "$stage_dir" "$install_dir"; then
+    stage_dir=""
+    rm -rf "$backup_root"
+    backup_root=""
+  else
+    if [ -d "$backup_root/ci-boardroom" ]; then
+      mv "$backup_root/ci-boardroom" "$install_dir"
+    fi
+    printf '%s\n' "CI Boardroom installation failed; the previous installation was preserved." >&2
+    exit 1
+  fi
+
+  trap - EXIT HUP INT TERM
+  printf '%s\n' "CI Boardroom installed successfully at $install_dir"
+)
 ```
+
+The parentheses keep installation failures inside a subshell, so a failed download does not close your interactive Terminal. Downloads are staged and validated before the live Skill folder is replaced. If replacement fails, the previous installation is restored.
 
 Inspect the three downloaded files, then start a new Codex session. Ask naturally, or say: `Use CI Boardroom on this.`
 
