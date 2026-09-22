@@ -32,7 +32,7 @@ It should not give a broad generic answer. It should identify the exact niche, s
 
 ## The Zero-Command Path
 
-1. Paste [BOARDROOM.md](BOARDROOM.md) into your AI.
+1. Load [BOARDROOM-PASTE.md](BOARDROOM-PASTE.md), the complete runtime bundle, into a compatible AI client. Check that no content is truncated; `BOARDROOM.md` alone is only the core component.
 2. Type one work item in plain words.
 3. Read the useful output first.
 4. Check any short authority, source, or governance note if relevant.

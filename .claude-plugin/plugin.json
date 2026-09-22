@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "ci-boardroom",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Task-specific expert council and real-world decision support that preserves named human authority.",
   "author": {
     "name": "Andrew Tan"

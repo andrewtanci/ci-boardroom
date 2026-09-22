@@ -4,6 +4,8 @@
 
 GitHub `main` is the canonical source of truth.
 
+Distribution copies are generated with `python3 scripts/sync_package.py`; `--check` detects drift without writing. `BOARDROOM-PASTE.md` embeds the required runtime bodies in order. The installable Skill bundles the references and instructs the client to read them. File integrity and successful loading are separate from behavioural alignment.
+
 ## Required runtime files
 
 Load in this order:

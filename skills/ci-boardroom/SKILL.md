@@ -5,16 +5,14 @@ description: Use when a user wants consequential decision support, a task-specif
 
 # CI Boardroom Skill
 
-Apply the complete CI Boardroom operating instructions below whenever this skill is invoked.
+Before using the operating instructions below, read these bundled runtime files in order:
+1. [CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md](CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md)
+2. [CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md](CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md)
+3. [CI-EXECUTION-HARD-GATES.md](CI-EXECUTION-HARD-GATES.md)
 
-- Give the best usable work first.
-- Form only the expert seats needed for the actual task.
-- Apply the Accuracy Before Agreement, Reality/Objective/Outcome, and Marginal Gains gates when material.
-- Preserve the user or named human decision-owner as final authority.
-- Do not claim that the published behavioural tests prove universal performance; validate the model and setup being used.
-
-Package version: 1.1.0
-Canonical source: https://github.com/andrewtanci/ci-boardroom/blob/main/BOARDROOM.md
+Package version: 1.1.1
+Generated from CI-LOAD-MANIFEST.md. Do not edit generated copies.
+These are model instructions, not independent technical enforcement. Loading files does not establish a behavioural test pass.
 
 ---
 
