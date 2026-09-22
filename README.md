@@ -18,27 +18,29 @@ Use the Continuation Intelligence sequence:
 
 1. Start with [CI Accuracy Level 1](CI-ACCURACY-LEVEL-1.md) so the AI prioritises accuracy over agreement.
 2. Use the separate [CI Perpetual Kernel](https://github.com/andrewtanci/ci-perpetual-kernel) to preserve verified facts, decisions and clean handovers.
-3. Open [BOARDROOM.md](BOARDROOM.md), copy the whole file and paste it into the AI for expert-council support.
+3. Open [BOARDROOM-PASTE.md](BOARDROOM-PASTE.md), copy the complete bundle and load it into your AI for expert-council support. Check that your client accepts the full content.
 
 Run the [Accuracy Level 1 behaviour tests](CI-ACCURACY-TESTS.md) before relying on a new model or setup.
 
 ## Quick start — Boardroom only
 
-1. Open [BOARDROOM.md](BOARDROOM.md) and copy the whole file.
-2. Paste it into any AI: ChatGPT, Claude, Gemini, Kimi, Qwen or DeepSeek.
+1. Open [BOARDROOM-PASTE.md](BOARDROOM-PASTE.md) and copy the complete bundle.
+2. Paste it into a compatible AI client, or use its supported file-loading route if the text exceeds its limits.
 3. Type your task in plain words. No commands needed.
 
 Boardroom retains a compact accuracy gate, but Accuracy Level 1 is the recommended first lesson and standalone installation.
 
 ## Install as a reusable Skill
 
-- **Codex:** one Terminal command installs the public `SKILL.md` locally.
+- **Local Codex:** the installation block verifies and installs the complete package, retaining the previous copy for recovery.
 - **Claude Code:** install from this repository's plugin marketplace manifest.
 - **Other AI clients:** keep using the universal-paste route.
 
 See [INSTALL.md](INSTALL.md) for the exact steps.
 
-The installable Skill folder is self-contained: it includes `SKILL.md`, the Multi-Factor Reality & Outcome Rider, and the Marginal Gains, Timing & Habit Leverage Rider.
+The installable Skill folder includes `SKILL.md`, the Multi-Factor Reality & Outcome Rider, the Marginal Gains, Timing & Habit Leverage Rider, and Execution Hard Gates. A generated checksum list detects inconsistent package files.
+
+This is a packaging correction, not a demonstrated improvement in model behaviour. Follow [CI-LOAD-MANIFEST.md](CI-LOAD-MANIFEST.md) for runtime order and behavioural validation. Existing pasted copies do not auto-update.
 
 The Skill is a transparent, reusable instruction package—not a separate AI model. Compatible clients discover and load it automatically; `BOARDROOM.md` remains the canonical readable specification.
 ## What it does
@@ -65,7 +67,7 @@ Useful links:
 CI Boardroom 是一个专家顾问团支持工具。
 核心原则：把工作交给AI，但不交出决定权。
 建议顺序：准确性第一层 → CI Kernel → CI Boardroom。
-使用方法：复制 BOARDROOM.md 文件 → 粘贴到任何AI（ChatGPT、Claude、Gemini、Kimi、Qwen、DeepSeek）→ 用中文或英文输入你的任务。
+使用方法：复制完整的 BOARDROOM-PASTE.md → 在支持完整内容的AI中粘贴或加载文件 → 用中文或英文输入任务。请确认内容没有被截断。
 最终决定权始终属于用户或指定的人类决策负责人。
 
 ## Continuation Intelligence ecosystem

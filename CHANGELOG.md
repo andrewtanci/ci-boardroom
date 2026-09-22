@@ -2,6 +2,16 @@
 
 All notable changes to the CI Boardroom package are recorded here.
 
+## [1.1.1] — 22 September 2026
+
+- Correct distribution drift: generate Skill references and the complete paste bundle from the canonical load manifest.
+- Include the current 28-section Multi-Factor rider and previously omitted Execution Hard Gates.
+- Align install, quick-start and behavioural-test loading instructions.
+- Stage and checksum downloads before replacement; preserve previous installations and isolate shell failures. Builds on the installer failure reported in draft PR #6 without merging that stale three-file patch.
+- Add deterministic distribution and failure-recovery tests. These are packaging tests, not model behavioural passes or comparative superiority evidence.
+- Require exact checksum coverage and the complete four-file runtime manifest; reject omissions, duplicate entries and unexpected paths before installation or generation.
+- Preserve existing canonical decision rules. No new council architecture, automatic memory, client installation or technical enforcement of prompt rules is claimed.
+
 ## [1.1.0] — 15 August 2026
 
 - published the reusable CI Boardroom Skill and Claude/Codex plugin manifests

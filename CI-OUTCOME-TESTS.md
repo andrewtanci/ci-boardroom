@@ -4,6 +4,9 @@ Run these tests after loading `BOARDROOM.md` with:
 
 - [CI Boardroom — Multi-Factor Reality & Outcome Rider](CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md)
 - [CI Boardroom — Marginal Gains, Timing & Habit Leverage Rider](CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md)
+- [CI Boardroom — Execution Hard Gates](CI-EXECUTION-HARD-GATES.md)
+
+Alternatively load the complete generated `BOARDROOM-PASTE.md`. Record the source commit, loaded files, model and date with results. Package checks do not count as behavioural test passes.
 
 ## Release Rule
 

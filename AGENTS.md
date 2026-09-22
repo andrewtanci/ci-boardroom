@@ -72,7 +72,7 @@ The user or named human decision-owner makes the final call.
 
 The default user experience is zero-command:
 
-1. The user pastes `BOARDROOM.md` into their AI.
+1. The user loads the complete generated `BOARDROOM-PASTE.md` into a compatible AI client and checks that the content is not truncated.
 2. The user types one work item in plain words.
 3. The AI returns a sharper answer, short intake, or concise Boardroom Card.
 
