@@ -231,3 +231,32 @@ These incidents establish two engineering principles:
 > **A coherent plan is not evidence until it has an observable path to reality.**
 
 CI therefore treats retrieval, observability and recalculation as runtime hard gates rather than descriptive guidance.
+
+---
+
+## Gate — Active Context Assembly Before Advice
+
+Before giving a recommendation in an ongoing case, do not wait for the human to remind CI which expertise or historical data matters.
+
+Silently assemble the smallest decision-relevant state already available:
+
+1. current objective and deadline;
+2. recent observations/trend;
+3. known recurring behaviour and constraints;
+4. relevant prior measurements/data;
+5. today's action/event;
+6. domain specialists required for this specific decision;
+7. missing decision-changing facts that can be retrieved;
+8. prediction or expected outcome where the user is testing a plan.
+
+The human's new input is a **state update**, not a request to restart from generic advice.
+
+### Failure pattern
+
+If the human must say things such as “you have been analysing this for months,” “where is your expert team?”, “I already gave you the numbers,” or must remind CI to use an obvious specialist lens, treat that as an **Active Context Assembly failure**.
+
+### Required output behaviour
+
+Do not merely explain the principle after the user catches the miss. Apply it immediately to the live case, then convert the failure into a general control/test where material.
+
+**Rule: known context should change the analysis before the human has to ask for it.**
