@@ -32,9 +32,10 @@ Boardroom retains a compact accuracy gate, but Accuracy Level 1 is the recommend
 
 ## Install as a reusable Skill
 
+- **ChatGPT personal Skills (eligible accounts):** upload the complete `skills/ci-boardroom` folder as a ZIP through Plugins → Skills → Create → Upload from your computer; verify actual discovery and behaviour after install.
 - **Local Codex:** the installation block verifies and installs the complete package, retaining the previous copy for recovery.
 - **Claude Code:** install from this repository's plugin marketplace manifest.
-- **Other AI clients:** keep using the universal-paste route.
+- **Other AI clients:** keep using the universal-paste route when direct Skill installation is unsupported.
 
 See [INSTALL.md](INSTALL.md) for the exact steps.
 
