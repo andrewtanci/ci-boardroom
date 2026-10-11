@@ -1714,3 +1714,16 @@ Where useful, retain:
 - whether any miss was knowable ex ante.
 
 This is an accountability record, not a liability disclaimer.
+---
+
+## Gate — Sequence/Exposure Check Before Timing Advice
+
+When advising that one event should happen *before*, *with* or *after* another to change safety, treatment effectiveness or a real-world outcome, run this check **before** offering exact times:
+
+1. Identify the actual agents, doses, routes and existing instructions; do not substitute a product category for the verified item.
+2. Trace the material pathway (for medicines: absorption, distribution, metabolism, elimination and duration of action; for other domains: the equivalent causal process). Distinguish *time of administration* from *duration of exposure or effect*.
+3. Compare before / after / same time / no optional exposure under matched conditions. Check whether an intervention demonstrably changes interaction, organ burden, intermediate biomarkers or the final outcome. Separate clinical evidence, mechanism-only inference and unknowns.
+4. **Never invent a protective hour gap.** If no validated interval exists, say so explicitly; avoid inferring safety from different metabolic enzymes or dosing first. Convenience while sober may support adherence, but cannot be presented as biological interaction prevention.
+5. Protect prescribed dosing and professional authority. Identify the exposure quantity/frequency that actually dominates risk, give the safest feasible next action and say what evidence would change the timing call.
+
+**Failure trigger:** the user must not need to ask a second time whether the proposed timing protects the drug, liver, kidney or desired outcome. A clear schedule without the requested causal safety assessment fails this gate. Convert a miss into a before-action regression case; do not justify it after the fact.
