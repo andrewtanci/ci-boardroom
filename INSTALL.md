@@ -113,9 +113,16 @@ Compress the complete `ci-boardroom` folder as a ZIP, then upload the ZIP throug
 3. Paste it into a compatible AI conversation or use the client's supported file-loading route. Verify that the complete content fits the client's limits; do not assume truncated text was loaded.
 4. Add your task. You remain the final decision-owner.
 
-## 5. ChatGPT and public plugin listing
+## 5. ChatGPT personal Skills — eligible accounts
 
-The source package and Codex manifest are public in this repository. A public ChatGPT plugin/GPT listing is a separate review and publishing step and is not claimed here.
+As documented in [OpenAI's Skills in ChatGPT guidance](https://help.openai.com/en/articles/20001066-skills-in-chatgpt/), eligible ChatGPT Business, Enterprise, Healthcare and Edu users may create or upload personal Skills, subject to workspace settings and availability. This is separate from Codex's local skills directory and from publishing a public plugin/GPT.
+
+1. Make a ZIP containing the `ci-boardroom/` folder at its root, with `SKILL.md`, the three runtime rider files and `PACKAGE-SHA256SUMS`. The [canonical package](skills/ci-boardroom/SKILL.md) and checksum file are maintained in this repository.
+2. On an account where the feature is available, go to **Plugins → Skills → Create → Upload from your computer** in ChatGPT, and upload the ZIP. Complete the user-facing installation flow; workspace administrators may restrict it.
+3. Verify that **CI Boardroom** appears as installed. Start a fresh test conversation; check whether it is discovered and whether the complete riders are used when relevant. Run the published behavioural tests on the actual target client. A successful upload alone is not a behavioural pass.
+4. GitHub commits and Codex/Claude installations **do not automatically install or update** ChatGPT personal Skills. Upload a new tested package to update the ChatGPT installation when supported.
+
+This repository cannot infer a particular account's Skills entitlement. This chat's GitHub connector can inspect and prepare source files but does not itself install a personal ChatGPT Skill. A public ChatGPT plugin listing remains a separate publishing/review step.
 
 ## What a Skill is
 
