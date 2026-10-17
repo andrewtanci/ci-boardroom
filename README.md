@@ -1,92 +1,76 @@
 # CI Boardroom
 
-Tagline:
+**Expert council support at your fingertips, without losing yourself or your authority.**
 
-“Expert council support at your fingertips, without losing yourself or your authority.”
+**Delegate the work. Do not delegate the authority.**
 
-Core principle:
-
-“Delegate the work. Do not delegate the authority.”
-
-CI Boardroom turns an AI into a dynamic expert council that challenges weak thinking, checks sources and produces stronger work while preserving human authority.
+CI Boardroom is the starting point for Continuation Intelligence. The combined CI package brings together CI Kernel continuity instructions and Boardroom decision-support instructions. You do not need to install Kernel separately or complete a sequence of book chapters before starting.
 
 ## Start here
 
-Use the Continuation Intelligence sequence:
+**[Download Continuation Intelligence at SkillsNova](https://skillsnova.sg/)**
 
-**Accuracy Level 1 → Kernel → Boardroom**
+SkillsNova is the main entry point for the combined package and its setup guidance. Start with CI Boardroom directly.
 
-1. Start with [CI Accuracy Level 1](CI-ACCURACY-LEVEL-1.md) so the AI prioritises accuracy over agreement.
-2. Use the separate [CI Perpetual Kernel](https://github.com/andrewtanci/ci-perpetual-kernel) to preserve verified facts, decisions and clean handovers.
-3. Open [BOARDROOM-PASTE.md](BOARDROOM-PASTE.md), copy the complete bundle and load it into your AI for expert-council support. Check that your client accepts the full content.
+Choose one route from the combined download:
 
-Run the [Accuracy Level 1 behaviour tests](CI-ACCURACY-TESTS.md) before relying on a new model or setup.
+- **Portable text:** use `Portable/CI.txt` with an AI app that can read the complete file. Upload it through the app's supported file-loading option or paste the whole text into a conversation with enough capacity.
+- **Native Skill:** if your app supports importing Skill ZIPs, use `Native/CI-v1-skill.zip` through its supported setup process. The technical Skill name is `ci-boardroom`.
 
-## Quick start — Boardroom only
+Follow the download's `START-HERE.txt`. Both routes include Kernel and Boardroom; use one route for a task so the instructions are not loaded twice. Check that the complete content is available to the model. If an app cannot import or read it fully, use a supported alternative rather than assuming a partial load is complete.
 
-1. Open [BOARDROOM-PASTE.md](BOARDROOM-PASTE.md) and copy the complete bundle.
-2. Paste it into a compatible AI client, or use its supported file-loading route if the text exceeds its limits.
-3. Type your task in plain words. No commands needed.
+Give the AI a small real task, its source material, the result you want and any limits. Ask it to read the complete CI instructions and tell you if any part is unavailable. Check the output against your sources before relying on it.
 
-Boardroom retains a compact accuracy gate, but Accuracy Level 1 is the recommended first lesson and standalone installation.
+## What it helps with
 
-## Install as a reusable Skill
+CI Boardroom provides instructions for the AI to:
 
-- **Local Codex:** the installation block verifies and installs the complete package, retaining the previous copy for recovery.
-- **Claude Code:** install from this repository's plugin marketplace manifest.
-- **Other AI clients:** keep using the universal-paste route.
+- examine evidence, challenge assumptions and expose uncertainty;
+- compare the actual options against your objective and constraints;
+- use task-specific analytical roles to identify objections and practical next steps;
+- keep decisions, versions and approval boundaries explicit;
+- prepare a continuation block for you to review, save and carry into a later conversation;
+- keep you, or a named accountable human, in charge of consequential decisions and external actions.
 
-See [INSTALL.md](INSTALL.md) for the exact steps.
+The authority flags are Assist, Advise, Approve and Stop / Escalate. Expert roles are AI analytical perspectives unless a real qualified professional is involved.
 
-The installable Skill folder includes `SKILL.md`, the Multi-Factor Reality & Outcome Rider, the Marginal Gains, Timing & Habit Leverage Rider, and Execution Hard Gates. A generated checksum list detects inconsistent package files.
+## What to expect
 
-This is a packaging correction, not a demonstrated improvement in model behaviour. Follow [CI-LOAD-MANIFEST.md](CI-LOAD-MANIFEST.md) for runtime order and behavioural validation. Existing pasted copies do not auto-update.
+CI is a reusable instruction package. It can guide a model's approach, but it cannot guarantee compliance, accuracy or correct results.
 
-The Skill is a transparent, reusable instruction package—not a separate AI model. Compatible clients discover and load it automatically; `BOARDROOM.md` remains the canonical readable specification.
-## What it does
+It does not install automatic memory, background monitoring, a scheduler or account connections. Continuity depends on the material the AI can access and the checkpoints you review, save and provide again. Your AI app controls its tools, context capacity, permissions and Skill support.
 
-CI Boardroom helps you get stronger AI work without handing over the final call. It:
+Compatibility and complete loading must be checked in your own setup. A checksum verifies file consistency, not model behaviour. Existing pasted copies do not auto-update.
 
-- forms a dynamic expert council with dynamic role-based expert seats for the exact task and niche
-- seeks practitioner-level depth without fabricating expertise
-- challenges assumptions instead of merely agreeing
-- checks Source Integrity and exposes uncertainty
-- uses only four authority flags: Assist, Advise, Approve and Stop / Escalate
-- keeps the user or named human decision-owner in final authority
+## Repository and development references
 
-Useful links:
+This repository preserves the Boardroom source, earlier component packaging, examples and diagnostic tests. Some older files describe separate installation steps or an earlier runtime layout. They are development and historical references, not additional required installs for the combined download.
 
-- [CI Accuracy Level 1](CI-ACCURACY-LEVEL-1.md)
-- [Accuracy behaviour tests](CI-ACCURACY-TESTS.md)
+For current customer setup, use the combined package and its own `START-HERE.txt` via [SkillsNova](https://skillsnova.sg/). Do not assume the component files on this repository's default branch are byte-identical to that download.
+
+- [Boardroom source](BOARDROOM.md)
 - [Examples](EXAMPLES.md)
-- [Paid Boundary](PAID-BOUNDARY.md)
-- [Start Here](START-HERE.md)
+- [Accuracy behaviour tests](CI-ACCURACY-TESTS.md)
+- [Outcome tests](CI-OUTCOME-TESTS.md)
+- [Load and validation reference](CI-LOAD-MANIFEST.md)
+- [Earlier installation reference](INSTALL.md)
+- [Kernel component history](https://github.com/andrewtanci/ci-perpetual-kernel)
+- [Paid boundary](PAID-BOUNDARY.md)
+
+These diagnostic tests are not a guarantee of reliability or proof of superiority. If you report a failure case, remove private, personal, client, employee, confidential and commercially sensitive information.
 
 ## 中文说明
 
-CI Boardroom 是一个专家顾问团支持工具。
-核心原则：把工作交给AI，但不交出决定权。
-建议顺序：准确性第一层 → CI Kernel → CI Boardroom。
-使用方法：复制完整的 BOARDROOM-PASTE.md → 在支持完整内容的AI中粘贴或加载文件 → 用中文或英文输入任务。请确认内容没有被截断。
-最终决定权始终属于用户或指定的人类决策负责人。
+直接从 CI Boardroom 开始。整合版 CI 下载包含 Kernel 连续性指令与 Boardroom 决策支持指令，无需分别安装，也无需先完成书中章节。
 
-## Continuation Intelligence ecosystem
+请从 [SkillsNova](https://skillsnova.sg/) 获取整合包及使用说明，根据应用支持选择完整文本或原生 Skill。技术 Skill 名称为 `ci-boardroom`。请确认 AI 能读取完整内容。CI 不提供自动记忆或后台监控；重要检查点需要由你审核、保存，并在需要时再次提供。最终决定权始终属于用户或指定的人类负责人。
 
-CI Boardroom is part of the Continuation Intelligence ecosystem. CI Perpetual Kernel is the separate free sibling product that keeps AI work alive across threads; do not merge the Kernel and Boardroom product identities.
+## Continuation Intelligence book
 
-- Continuation Intelligence book: https://amazon.com/dp/B0H4CVNZPH
-- Continuation Intelligence book: https://amazon.com/dp/B0H4CXR3HJ
-- CI Perpetual Kernel: https://github.com/andrewtanci/ci-perpetual-kernel
-- Free Gumroad download: https://andrewtanci.gumroad.com/l/ci
-- SkillsNova: https://skillsnova.sg
+The book provides the wider method and background. You can start using CI Boardroom directly.
 
-## Test it
-
-First run the [Accuracy Level 1 behaviour tests](CI-ACCURACY-TESTS.md).
-
-Then give CI Boardroom a real task: a draft, plan, reply, comparison, recommendation, critique, source check or decision input.
-
-Failure-case challenge: if it still produces generic advice or unsupported agreement, open a GitHub issue and share the task or failure case so it can be improved. Do not include private, personal, client, employee, confidential or commercially sensitive information.
+- [Continuation Intelligence on Amazon](https://amazon.com/dp/B0H4CVNZPH)
+- [Continuation Intelligence on Amazon](https://amazon.com/dp/B0H4CXR3HJ)
 
 ## Support the project
 
