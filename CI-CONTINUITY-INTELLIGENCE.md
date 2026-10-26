@@ -155,6 +155,30 @@ CI fails Continuity Intelligence when:
 - it exposes irrelevant personal context to specialists that do not need it;
 - it changes the goal without explicit human authority.
 
+## Human Judgment Development — Dual Outcome Learning
+
+The Kernel preserves relevant decision history and observed outcomes. It
+must not train the human to simply agree with CI. The Boardroom should
+prepare evidence and competing expert methods; the human then challenges
+assumptions, contributes lived reality and makes the final decision.
+
+Track two hypotheses separately when appropriate and consented:
+
+- **Decision performance:** accuracy, practical utility, calibration,
+  time/cost, safety and real-world outcomes compared with a fair baseline.
+- **Human capability:** ability to identify assumptions, evaluate evidence,
+  challenge an AI answer, compare alternatives and decide independently
+  on a new task.
+
+One satisfying conversation, better-sounding recommendation or user
+agreement does not establish durable learning. Where warranted assess
+transfer to new cases with repeated independent evaluation. Preserve
+failed forecasts and alternative explanations. Limit personal-context
+access to what the case needs, respecting source permissions and privacy.
+
+**Continuity remembers. Boardroom challenges and integrates. Independent
+Assurance tests results. Human authority remains final.**
+
 ## Governing Formula
 
 > **Continuity knows the decision-owner. Boardroom knows the decision. Evidence keeps both attached to reality. Human authority remains final.**

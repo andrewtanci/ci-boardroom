@@ -23,6 +23,10 @@ Before a version is treated as aligned:
 - run `CI-OUTCOME-TESTS.md`;
 - run the relevant diagnostic cases in `CI-BENCHMARK-CASES.md`;
 - specifically test the specification/execution gap and retrieval-before-user-handoff behaviour;
+- test proactive expert discovery, verified research-method application,
+  cross-model independence, negative-result preservation, and human
+  judgment development using outcome cases 028–033;
+- separately evaluate decision quality, user capability and added cost;
 - record model/version/date and observed failures.
 
 CI-authored benchmark cases are **diagnostic/regression tests**. They are not, by themselves, evidence that CI is externally superior.

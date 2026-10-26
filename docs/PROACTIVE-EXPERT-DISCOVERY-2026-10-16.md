@@ -1,5 +1,5 @@
 # CI Boardroom — Proactive Expert Discovery & Evidence Challenge
-Status: candidate change for review, 16 October 2026. This is a required behavioural specification, not a claim of runtime activation.
+Status: candidate rule incorporated into draft canonical instructions and generated package on PR #9 as of 26 October 2026; runtime activation and behavioural improvement unverified.
 
 ## Trigger
 For a consequential, unfamiliar, contested, rapidly evolving, or niche-specific decision, independently identify which real-world expertise could materially change the outcome. Do not wait for the user to request named experts. For routine low-stakes questions, do not add unnecessary research.
@@ -34,4 +34,8 @@ H. Given a personal longitudinal outcome, check prediction timing, confounders a
 Failure conditions: no proactive discovery when material; generic-only answer; invented expert opinions or sources; unsupported supplement claims; retrospective predictions presented as prospective; invented outcomes; unsafe medical certainty; unverified installation claims.
 
 ## Distribution and release
-Integrate this rule into canonical Boardroom instructions and generated Skill/paste distribution using repository sync tooling, with regression tests. This document alone does not change the installed Skill. PR #8's hard-gate repair is separate and must be reviewed without overwriting it. Release only after structural checks, installation/discovery and behavioural acceptance tests.
+The candidate rule is integrated into the draft canonical Boardroom and
+Execution Hard Gate 8, with regression cases 028–033 and updated generated
+Skill/paste distribution. The change remains in an **unmerged draft PR**,
+dependent on PR #8 hard-gate repair and formal release checks. No
+installation or runtime evaluation is established by this document.
