@@ -23,6 +23,10 @@ Before a version is treated as aligned:
 - run `CI-OUTCOME-TESTS.md`;
 - run the relevant diagnostic cases in `CI-BENCHMARK-CASES.md`;
 - specifically test the specification/execution gap and retrieval-before-user-handoff behaviour;
+- test proactive expert discovery, verified research-method application,
+  cross-model independence, negative-result preservation, and human
+  judgment development using outcome cases 028–033;
+- separately evaluate decision quality, user capability and added cost;
 - record model/version/date and observed failures.
 
 CI-authored benchmark cases are **diagnostic/regression tests**. They are not, by themselves, evidence that CI is externally superior.
@@ -57,3 +61,16 @@ When live use reveals a material miss:
 6. if the change affects an external benchmark, increment the benchmark version and follow preregistration/change-control rules rather than silently editing the exam after seeing results.
 
 Do not treat a GitHub commit by itself as proof that runtime behaviour has improved, and do not treat CI-authored benchmark success as proof of external superiority.
+
+## Public Kernel + Boardroom reader package
+
+The public Kernel is maintained in `CI-PUBLIC-KERNEL.md`; the Boardroom and all
+riders are drawn from the canonical runtime files listed above. Generate the
+public copy/paste text and combined Skill ZIP through
+`python3 scripts/build_reader_downloads.py`. Validate with
+`python3 scripts/build_reader_downloads.py --check`.
+
+Public downloads are separate from the Boardroom-only engineering Skill folder:
+the public ZIP includes Kernel instructions *inside* its Skill entrypoint.
+GitHub publishing updates these public files but does not silently update
+previously pasted or installed Skills in external clients.
