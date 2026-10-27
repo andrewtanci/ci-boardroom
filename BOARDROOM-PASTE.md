@@ -1,6 +1,6 @@
 # CI Boardroom — Complete Paste Bundle
 
-Package 1.1.1. Generated from CI-LOAD-MANIFEST.md; all required runtime bodies follow in order.
+Package 1.2.0. Generated from CI-LOAD-MANIFEST.md; all required runtime bodies follow in order.
 Pasted copies do not auto-update. If your client truncates this file, use its supported file/Skill loading route; do not claim missing content was loaded. Behavioural performance remains model- and setup-dependent.
 
 # CI Boardroom — Operating Instructions

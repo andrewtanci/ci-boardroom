@@ -2,6 +2,15 @@
 
 All notable changes to the CI Boardroom package are recorded here.
 
+## [1.2.0] — 28 October 2026
+
+- Integrate full Active Context Assembly, Direct Evidence Validation and Advice Accountability gates from the unmerged October repair, plus exposure-pathway safety tests 026–027.
+- Require proportional proactive discovery of real named expert methods, source verification, case application, independent challenge and Boardroom synthesis without claiming endorsement or independent expert participation.
+- Establish the dual goals of improved decision quality and lasting human judgment; preserve the negative reported Biohack model comparison and prohibit retrospective predictions disguised as forecasts.
+- Add Research-Grounded Execution Gate 8 and six new diagnostic tests (028–033), raising the test definitions to 33. Passing tests is a future verification target, not an observed claim.
+- Synchronize the public combined Kernel + Boardroom copy/paste and installable ZIP with canonical sources through a new repeatable generator and tests. Preserve full-migrate continuity and human approval boundaries.
+- Note that GitHub publication updates the download sources but does not install or activate a Skill inside a connected AI client or prove behavioural superiority.
+
 ## [1.1.1] — 22 September 2026
 
 - Correct distribution drift: generate Skill references and the complete paste bundle from the canonical load manifest.

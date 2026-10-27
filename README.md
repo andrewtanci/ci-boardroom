@@ -4,6 +4,8 @@
 
 Continuation Intelligence brings CI Kernel continuity instructions and Boardroom decision-support instructions together in one package. Start directly. You do not need a separate Kernel installation or a sequence of book chapters.
 
+**Release 1.2.0:** For material decisions, CI is now instructed to proactively examine published expert methods, challenge their applicability and support the human's independent judgment. Named experts are research sources, not members of an actual AI council. The methods still require verification against real cases.
+
 ## Get started
 
 [SkillsNova](https://skillsnova.sg/) is the main entry point for Continuation Intelligence and its one-click copy and download options.
@@ -49,7 +51,7 @@ Test a small task in your own setup and check the output against your sources. A
 
 ## Repository and development references
 
-The current reader downloads are in [downloads/](downloads/). This repository also preserves the Boardroom source, earlier component packaging, examples and diagnostic tests. Some older files describe separate installation steps or an earlier runtime layout. They are development and historical references, not additional required installs.
+The current reader downloads are in [downloads/](downloads/), generated from `CI-PUBLIC-KERNEL.md` and the canonical Boardroom source by `python3 scripts/build_reader_downloads.py`. This repository also preserves the Boardroom source, earlier component packaging, examples and diagnostic tests. Some older files describe separate installation steps or an earlier runtime layout. They are development and historical references, not additional required installs.
 
 For current customer setup, use the two options above or [SkillsNova](https://skillsnova.sg/). The older component files elsewhere in this repository are not necessarily byte-identical to the reader downloads.
 

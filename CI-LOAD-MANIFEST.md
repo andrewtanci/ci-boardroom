@@ -61,3 +61,16 @@ When live use reveals a material miss:
 6. if the change affects an external benchmark, increment the benchmark version and follow preregistration/change-control rules rather than silently editing the exam after seeing results.
 
 Do not treat a GitHub commit by itself as proof that runtime behaviour has improved, and do not treat CI-authored benchmark success as proof of external superiority.
+
+## Public Kernel + Boardroom reader package
+
+The public Kernel is maintained in `CI-PUBLIC-KERNEL.md`; the Boardroom and all
+riders are drawn from the canonical runtime files listed above. Generate the
+public copy/paste text and combined Skill ZIP through
+`python3 scripts/build_reader_downloads.py`. Validate with
+`python3 scripts/build_reader_downloads.py --check`.
+
+Public downloads are separate from the Boardroom-only engineering Skill folder:
+the public ZIP includes Kernel instructions *inside* its Skill entrypoint.
+GitHub publishing updates these public files but does not silently update
+previously pasted or installed Skills in external clients.

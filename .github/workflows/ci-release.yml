@@ -1,0 +1,29 @@
+name: CI Release Integrity
+
+on:
+  push:
+    branches:
+      - main
+      - "release/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-package-and-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify canonical distribution
+        run: python3 scripts/sync_package.py --check
+      - name: Verify public Kernel and Boardroom downloads
+        run: python3 scripts/build_reader_downloads.py --check
+      - name: Run deterministic distribution and archive tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Verify installable public ZIP is readable
+        run: unzip -t "downloads/Continuation Intelligence - Download Skills.zip"
