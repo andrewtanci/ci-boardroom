@@ -1,3 +1,5 @@
+> Execution update, 29 October 2026: the prescribed nine-session matrix is complete. See the [observed-results summary](docs/INTERACTION-REGRESSION-RESULTS-2026-10-29.md). The frozen pre-run protocol below, including its original NOT RUN stamp, is retained verbatim.
+
 # Interaction calibration — follow-up diagnostic v1
 
 Frozen before follow-up execution on 29 October 2026. **Status: NOT RUN.**

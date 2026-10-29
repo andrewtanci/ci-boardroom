@@ -45,17 +45,23 @@ interaction. Its [four exact input files and hashes](interaction-qa/SHA256SUMS)
 are new follow-up inputs; the prior starting-point question, rubric, eight
 runtime-QA input files and native runbook are unchanged.
 
-Run nine fresh sessions: baseline, rc.1 and rc.2 for each case, using the same
-150-word instruction, evidence access and complete-text loading route. Keep the
-rubric out of tested sessions, retain first answers and score source fidelity,
-calibration, useful next action and authority separately. Native AI scores are
+The completed matrix used nine fresh sessions: baseline, rc.1 and rc.2 for each
+case, with the same 150-word instruction, evidence access and complete-text
+loading route. The rubric was withheld from tested sessions, first answers were
+retained, and source fidelity, calibration, useful next action and authority were
+scored separately. Native AI scores are
 exploratory. No numerical uplift or general superiority claim is warranted by
 this small, related diagnostic.
 
-**Fresh rc.2 runtime status: NOT RUN / NOT SCORED.** Written corrections and
-static checks do not establish behavioural repair. Do not transfer a prior
-candidate's runtime observations to these changed bytes. Team QA owns the new
-sessions and relevant continuity rechecks; Andrew is not assigned test execution.
+**Runtime status: prescribed nine-session matrix completed and stopped.**
+Baseline, rc.1 and rc.2 each scored 8/8 on all three fictional cases under
+exploratory blinded AI grading, with no critical failure identified. The prior
+overstatement did not recur under rc.1. These results do not demonstrate a
+causal patch improvement, a reproducible failure repaired by rc.2, or superiority.
+See the [observed-results summary](INTERACTION-REGRESSION-RESULTS-2026-10-29.md)
+for controls, score interpretation and limits. The original tied business-question
+experiment and its weakness remain preserved. No further runtime experiment is
+authorized by this candidate status update.
 
 ## Integrity and preservation checks
 
@@ -64,7 +70,8 @@ sessions and relevant continuity rechecks; Andrew is not assigned test execution
 - `python3 scripts/build_reader_downloads.py --check` — current combined text,
   exact reproducible ZIP bytes and external hashes match.
 - `python3 -m unittest discover -s tests -v` — all 17 deterministic tests pass;
-  these include file/Git/package recovery, not the new assistant sessions.
+  these include file/Git/package recovery and are counted separately from the
+  nine native assistant sessions.
 - All three manifest versions, changed relative file links, ZIP CRC and internal
   and external SHA-256 values are checked before saving the candidate commit.
 - Earlier source commits retain the original package bytes. The original
@@ -79,9 +86,14 @@ newer branch artifact; always verify the recorded version and hash.
 
 ## Remaining release gate
 
-The team records actual new-session evidence and failures against these frozen
-inputs. Andrew then reviews the concrete package, bounded change and observed
-results before any merge, final version or release decision. Third-party
-ChatGPT/Claude activation remains unverified through the available repository
-connection. No client installation, automatic synchronization or compatibility
-claim is made.
+Team QA has recorded the prescribed native observations and retained failures
+and ties. Andrew or the specifically authorized owner must now decide whether
+to accept the bounded clarification and, separately, whether to mark the draft
+ready, merge an identified commit or publish an identified artifact. No such
+action is authorized by test completion; no merge, approval, tag or release has
+been performed. Any further experiment also requires a separate decision.
+
+Third-party ChatGPT/Claude installation, discovery and activation remain
+unverified through the available repository connection. The new matrix exercised
+complete text, not a live ZIP installation. No automatic synchronization,
+general compatibility or performance-superiority claim is supported.
