@@ -2,6 +2,16 @@
 
 All notable changes to the CI Boardroom package are recorded here.
 
+## [1.3.0-rc.1] — 29 October 2026 — Continuity & Recovery candidate
+
+- Make CI Boardroom the combined product home for downloads, setup, examples and stars; retain historical Kernel sources and existing engineering assets.
+- Correct examples that loaded only `BOARDROOM.md`; direct readers to the combined Kernel + Boardroom package and canonical manifest.
+- Bundle a short setup guide, 18-field checkpoint template, save/load/verify and recovery guide, fictional example and MIT licence in the public ZIP.
+- Add reproducible archive and external download checksums; retain canonical Kernel and Boardroom runtime rules unchanged.
+- Prepare bounded file save/load, bad-edit/revert/reload and installed-package recovery checks. These verify file operations and package integrity, not assistant behaviour, automatic synchronization or cross-client compatibility.
+- This is a release candidate for review. No tag or GitHub Release is published. Actual two-assistant runtime checks and human approval remain required.
+- Prepare an unrun, controlled baseline-versus-CI diagnostic for useful starting-point improvements, rather than verbose agreement; no scores or superiority claims.
+
 ## [1.2.0] — 28 October 2026
 
 - Integrate full Active Context Assembly, Direct Evidence Validation and Advice Accountability gates from the unmerged October repair, plus exposure-pathway safety tests 026–027.

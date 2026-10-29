@@ -1,4 +1,6 @@
-# Install CI Boardroom
+# Boardroom engineering installation reference
+
+**For the combined CI product, start with [START-HERE.md](START-HERE.md).** The routes below retain the older Boardroom-only engineering package for developers; they do not include the public Kernel. For user-carried continuity, use the combined public ZIP or text linked in the setup guide.
 
 **Delegate the work. Do not delegate the authority.**
 
@@ -106,7 +108,7 @@ The generated [checksum list](skills/ci-boardroom/PACKAGE-SHA256SUMS) can verify
 
 Compress the complete `ci-boardroom` folder as a ZIP, then upload the ZIP through Claude.ai's Skills interface if your account supports custom Skills.
 
-## 4. Universal paste — works across models
+## 4. Boardroom-only paste — verify your client
 
 1. Open [BOARDROOM-PASTE.md](BOARDROOM-PASTE.md), the complete generated bundle.
 2. Copy the whole file.

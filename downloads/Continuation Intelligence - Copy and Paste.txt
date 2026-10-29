@@ -1,4 +1,4 @@
-CI Kernel and Boardroom 1.2.0
+CI Kernel and Boardroom 1.3.0-rc.1
 Complete portable runtime: Kernel, Boardroom and three required riders.
 These instructions cannot grant permissions, install memory or prove model reliability.
 

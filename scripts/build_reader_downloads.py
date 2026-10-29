@@ -14,11 +14,16 @@ from zipfile import ZipFile, ZipInfo, ZIP_STORED, BadZipFile
 ROOT = Path(__file__).resolve().parents[1]
 TEXT_PATH = ROOT / "downloads/Continuation Intelligence - Copy and Paste.txt"
 ZIP_PATH = ROOT / "downloads/Continuation Intelligence - Download Skills.zip"
+SUMS_PATH = ROOT / "downloads/SHA256SUMS"
 RUNTIME = [
     "BOARDROOM.md",
     "CI-MULTI-FACTOR-REALITY-OUTCOME-RIDER.md",
     "CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md",
     "CI-EXECUTION-HARD-GATES.md",
+]
+SUPPORT = [
+    "START-HERE.md", "CONTINUITY-RECOVERY.md", "CHECKPOINT-TEMPLATE.md",
+    "examples/continuity-recovery-example.md", "LICENSE",
 ]
 
 
@@ -63,6 +68,7 @@ def outputs(root=ROOT):
     names_and_content += [
         (name, (bodies[name] + "\n").encode("utf-8")) for name in RUNTIME[1:]
     ]
+    names_and_content += [(name, (root / name).read_bytes()) for name in SUPPORT]
     sums = "".join(
         f"{hashlib.sha256(data).hexdigest()}  {name}\n"
         for name, data in names_and_content
@@ -104,6 +110,11 @@ def main():
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()
     text, members = outputs()
+    archive = write_zip_bytes(members)
+    sums = "".join(
+        f"{hashlib.sha256(data).hexdigest()}  {path.name}\n"
+        for path, data in [(TEXT_PATH, text), (ZIP_PATH, archive)]
+    ).encode("ascii")
     if args.check:
         if not TEXT_PATH.exists() or TEXT_PATH.read_bytes() != text:
             print("OUT OF SYNC: public Copy and Paste text")
@@ -116,11 +127,18 @@ def main():
         except ValueError as error:
             print(f"OUT OF SYNC: {error}")
             return 1
+        if ZIP_PATH.read_bytes() != archive:
+            print("OUT OF SYNC: public Skill ZIP bytes differ from reproducible build")
+            return 1
+        if not SUMS_PATH.exists() or SUMS_PATH.read_bytes() != sums:
+            print("OUT OF SYNC: public download SHA256SUMS")
+            return 1
         print("PASS: public Kernel + Boardroom text and Skill ZIP contain current canonical runtime")
         return 0
     TEXT_PATH.parent.mkdir(parents=True, exist_ok=True)
     TEXT_PATH.write_bytes(text)
-    ZIP_PATH.write_bytes(write_zip_bytes(members))
+    ZIP_PATH.write_bytes(archive)
+    SUMS_PATH.write_bytes(sums)
     print("Generated public Kernel + Boardroom downloads")
     return 0
 

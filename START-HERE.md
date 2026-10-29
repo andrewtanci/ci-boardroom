@@ -1,232 +1,64 @@
-# Start Here
+# Start with Continuation Intelligence
 
-Use CI Kernel + CI Boardroom when you want expert-level AI help that carries the work forward through a user-carried continuation block, challenges weak thinking, and helps you execute without handing over authority.
+**Let AI do the work. You stay in control.**
 
-The promise:
+CI combines Kernel continuity instructions and Boardroom expert council support
+in one package. You do not need a separate Kernel installation.
 
-> Expert council support at your fingertips, without losing yourself or your authority.
+This branch prepares **1.3.0-rc.1 — Continuity & Recovery** for review. It is not
+a published release or a verified installation in your AI app.
 
-Core principle:
+## 1. Load the combined package
 
-> Delegate the work. Do not delegate the authority.
+If you downloaded the ZIP, keep an untouched copy. It contains one `ci-boardroom/`
+folder with `SKILL.md`, three runtime riders, these user guides, a fictional
+example, the MIT licence and `PACKAGE-SHA256SUMS`.
 
-Core line:
+Use your AI app's supported Skill import process, if available. The technical
+Skill name is `ci-boardroom`. Confirm the complete package and all three riders
+are readable. App support, permissions and context limits vary. An upload alone
+does not prove that the Skill is active or follows its instructions.
 
-> AI can do the work. AI cannot take the authority.
+For a one-chat trial, use the complete **Continuation Intelligence - Copy and
+Paste.txt** from the same download version. Paste the entire file, or upload it
+through a supported file-loading route. Check for truncation. `BOARDROOM.md`
+alone and the older `BOARDROOM-PASTE.md` are Boardroom components, not the
+combined Kernel + Boardroom package.
 
-Start by typing one work item in plain words.
+The [CI Boardroom repository](https://github.com/andrewtanci/ci-boardroom) is the
+main home for downloads, demos, releases and stars. The public
+[SkillsNova download page](https://skillsnova.sg/#bonus) provides setup context;
+it may serve the stable package while this candidate is under review.
 
-Example:
+## 2. Try a small task
 
-> Should we adopt an AI tool to screen job applicants to save HR time?
+Use the [fictional example](examples/continuity-recovery-example.md). It includes
+an exact 18-field checkpoint and a test prompt. No real customer or private data
+is needed.
 
-No slash-command is required.
+Ask CI to improve a draft or plan. Check its facts, strongest objection,
+uncertainty and next step against your sources. Expert roles are AI analytical
+perspectives unless a real professional is involved. You retain final authority.
 
-CI Boardroom returns a useful output first: a draft, answer, plan, comparison, recommendation, critique, reply, source check, authority check, short intake, or Boardroom Card.
+## 3. Save, load and verify
 
-If the decision is high-consequence or missing key facts, CI Boardroom should ask a short set of questions first instead of pretending the answer is complete.
+At a useful milestone, type **full migrate**. Review the continuation block and
+save it in a file you control, alongside the exact source artifacts. Use the
+[checkpoint template](CHECKPOINT-TEMPLATE.md) to check the fields.
 
-It should show the big picture first, then clear the decision step by step.
+In a fresh chat, load the same combined package, provide your reviewed checkpoint
+and source files, then ask the AI to restate the objective, version, locked
+decisions, owner, uncertainty and next step. Correct conflicts before continuing.
 
-It should not give a broad generic answer. It should identify the exact niche, stakeholder, channel, relationship, jurisdiction, business model, or operating constraint that matters, then produce the practitioner-level move for that context.
+Follow [Continuity & Recovery](CONTINUITY-RECOVERY.md) for the complete steps,
+Git recovery, installed-package recovery and actual runtime test checklist.
 
-## The Zero-Command Path
+CI does not automatically sync chats or installations. A chat response is not a
+backup until you save it. Checksums show file consistency, not model reliability.
 
-1. Load [BOARDROOM-PASTE.md](BOARDROOM-PASTE.md), the complete runtime bundle, into a compatible AI client. Check that no content is truncated; `BOARDROOM.md` alone is only the core component.
-2. Type one work item in plain words.
-3. Read the useful output first.
-4. Check any short authority, source, or governance note if relevant.
-5. The user or named human decision-owner keeps final authority over consequential action.
+## 中文快速开始
 
-If a non-technical director cannot use it without reading a command list, the build has failed.
-
-## What CI Boardroom Is For
-
-The free layer is for one AI-assisted work item at a time.
-
-It is not mainly a compliance or control product.
-
-It is an expert council that does the work, with authority protection built in.
-
-It helps answer:
-
-- What useful work should be produced now?
-- What decision is actually being made?
-- What is at stake?
-- What can AI do safely?
-- Where is human judgment required?
-- What is unverified?
-- Who owns the final decision?
-- Should the authority flag be Assist, Advise, Approve, or Stop / Escalate?
-- What needs your input before the decision can be responsibly advised?
-- What needs the named human owner's approval?
-- Is this law-sensitive, governance-sensitive, or high-consequence?
-
-It also helps:
-
-- preserve continuity across chats through a user-carried continuation block
-- produce stronger answers
-- draft and execute permitted work
-- challenge assumptions
-- avoid starting from zero again
-
-Core principle:
-
-> Delegate the work. Do not delegate the authority.
-
-## Product Ladder
-
-CI Kernel is user-carried continuity.
-
-Mechanism: capture, compress, migrate, reinstate, continue.
-
-Public wording: CI Kernel is a copy-paste continuation tool that stops your AI work from resetting.
-
-The user generates and pastes a portable Continuation Block into the next AI session. This is not automatic background memory, hidden background storage, or platform-level memory.
-
-CI Boardroom gives better work.
-
-CI Authority Drift Review finds red flags.
-
-CI Human Authority Proof creates evidence.
-
-CI Governance Check verifies against current sources without giving legal or regulatory finality.
-
-## The Boardroom Card Never Hides
-
-The card must stay concise, but these items are never cut:
-
-1. Strongest objection / sharpest disagreement.
-2. What is unverified / Source Integrity flag.
-3. Authority flag + named human decision-owner.
-
-If the card hides disagreement, unverified facts, or authority ownership, it fails CI Boardroom.
-
-## Work-First Default
-
-If you ask for a draft, CI drafts first.
-
-If you ask for a comparison, CI compares first.
-
-If you ask for a plan, CI plans first.
-
-CI adds short authority, source, or governance notes only when they matter.
-
-It should not make you fill a form before useful work begins.
-
-For communication, sales, leadership, client, staff, customer, learner, or sensitive relationship work, CI should read the human situation before drafting. The output should protect the relationship while still moving the matter forward.
-
-## Depth Check
-
-Before you trust the output, ask:
-
-- Did it identify the exact niche, audience, or operating context?
-- Did it avoid generic "good idea" advice?
-- Did it show the practical move a strong operator would use?
-- Did it flag what is unverified instead of inventing certainty?
-- Did it keep human authority clear where the action matters?
-
-If the answer feels like something any normal AI could say, ask CI Boardroom to go deeper.
-
-## Three Trigger Rule
-
-CI becomes more formal only when one of these appears:
-
-1. Action trigger: AI is about to send, approve, reject, rank, score, submit, deploy, escalate, execute, make a formal commitment, or decide for a human.
-2. Content trigger: the work affects people, money, contracts, customers, health, rights, safety, access, reputation, learners, essential services, or formal obligations in a consequential way.
-3. Source Integrity trigger: the answer depends on current law, policy, regulation, official guidance, standards, medical claims, financial claims, country-specific claims, sector-specific claims, or uncertain facts.
-
-Domain alone is not a trigger.
-
-Drafting an employment letter is usually Assist.
-
-Deploying AI for hiring rejection, scoring, or employment decisioning is Approve or Stop / Escalate.
-
-## Comfortable Control
-
-Human authority final does not mean human approval every time.
-
-It means humans define the boundary, AI works inside it, CI monitors consequence and uncertainty, and humans intervene when needed.
-
-## Source And Claim Rule
-
-Verified claims are allowed.
-
-Unsupported, outdated, fictitious, exaggerated, fabricated-source, or unearned finality claims are not.
-
-Use wording like:
-
-> Based on sources reviewed as of [date]...
-
-Avoid wording like:
-
-> guaranteed compliant
-
-> legally certified
-
-> audit-ready
-
-> AIGP-compliant
-
-## Progressive Disclosure
-
-CI should show only what is useful now:
-
-1. Useful work product first.
-2. Short authority / source note if needed.
-3. Deeper review only when triggered or requested.
-4. Evidence or reference pack for serious or paid cases.
-
-## Fast Intake Mode
-
-For high-consequence decisions, the first useful answer may be a short intake, not a final recommendation.
-
-It should tell you:
-
-- the big picture
-- what AI can safely do now
-- what AI must not do
-- what needs your input
-- what needs human approval
-- the few questions that matter
-- what the agent will prepare next
-
-Example:
-
-> Big picture: AI can help HR read faster, but humans must own hiring decisions. I can prepare the assistive workflow. Before I do: who owns the hiring decision, what jurisdiction applies, what criteria will be used, and will every rejection receive human review?
-
-## Optional Shortcuts
-
-Commands are optional power-user shortcuts only.
-
-Use them when you want a narrower check:
-
-- `/authority-check`
-- `/autonomy-zone`
-- `/rubber-stamp-test`
-- `/decision-owner`
-- `/risk-gate`
-- `/source-check`
-- `/boardroom-card`
-
-The normal user does not need these commands. CI Boardroom creates dynamic role-based expert seats for the exact task and niche; it does not use a fixed mandatory role list.
-
-## Four Authority Flags
-
-### Assist
-
-AI may help prepare the work. Human checks before use.
-
-### Advise
-
-AI may recommend, compare, or rank options. Human makes the decision.
-
-### Approve
-
-Human approval required. The user or named human decision-owner must approve, reject, pause, or override.
-
-### Stop / Escalate
-
-Authority is unclear, consequence is high, source integrity is weak, people may be affected, or no accountable owner is named.
-
-When in doubt about external action, irreversible consequence, authority, or finality, hold the action. When only facts are missing, proceed with drafting or analysis but mark the Source Integrity flag and state what must be verified.
+CI 已把 Kernel 和 Boardroom 合并在同一套下载中，无需分别安装。请确认 AI
+能完整读取指令和三个附加文件。先用虚构例子测试。输入 `full migrate` 后，
+审核并保存交接块及原始文件；新聊天载入同一版本，再提供检查点并核对关键字段。
+这不是自动同步或保证记忆。最终决定权始终属于你或指定的人类负责人。
