@@ -5,7 +5,7 @@
 CI combines Kernel continuity instructions and Boardroom expert council support
 in one package. You do not need a separate Kernel installation.
 
-This branch prepares **1.3.0-rc.1 — Continuity & Recovery** for review. It is not
+This branch prepares **1.3.0-rc.2 — Continuity & Recovery** for review. It is not
 a published release or a verified installation in your AI app.
 
 ## 1. Load the combined package

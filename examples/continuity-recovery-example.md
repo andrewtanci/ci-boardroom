@@ -28,7 +28,7 @@ transcript. Save just this block as `checkpoint.md` for the local recovery drill
 CI CONTINUATION BLOCK
 Checkpoint ID: fictional-paper-lantern-v1
 Saved at: 2026-10-29 00:00 UTC (fictional fixture)
-CI package version: 1.3.0-rc.1
+CI package version: 1.3.0-rc.2
 Review status: hand-authored fictional test fixture; not a real approval
 
 1. User identity needed for this work: Maya, fictional workshop owner.

@@ -10,7 +10,7 @@ Before using the operating instructions below, read these bundled runtime files 
 2. [CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md](CI-MARGINAL-GAINS-TIMING-HABIT-LEVERAGE-RIDER.md)
 3. [CI-EXECUTION-HARD-GATES.md](CI-EXECUTION-HARD-GATES.md)
 
-Package version: 1.3.0-rc.1
+Package version: 1.3.0-rc.2
 Generated from CI-LOAD-MANIFEST.md. Do not edit generated copies.
 These are model instructions, not independent technical enforcement. Loading files does not establish a behavioural test pass.
 

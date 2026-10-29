@@ -2,6 +2,13 @@
 
 All notable changes to the CI Boardroom package are recorded here.
 
+## [1.3.0-rc.2] — 29 October 2026 — Interaction calibration candidate
+
+- Clarify the existing Interaction Effects section in the canonical Multi-Factor rider: distinguish evidence-backed hard constraints from preferences and untested explanations before ruling out an intervention or interaction.
+- Preserve decisive recommendations when evidence establishes infeasibility; use conditional advice and a focused evidence check when the cause is ambiguous. No extra rider, gate, or test-specific answer was added.
+- Freeze three fictional follow-up cases covering ambiguous objections, verified impossibility and explicit interaction. Fresh baseline/rc.1/rc.2 sessions remain NOT RUN for these cases; no behavioural pass or uplift is asserted.
+- Preserve prior candidate commits, original trial inputs and rubric. Rebuild exact versioned distributions and hashes; private runtime evidence is retained outside the public tree.
+
 ## [1.3.0-rc.1] — 29 October 2026 — Continuity & Recovery candidate
 
 - Make CI Boardroom the combined product home for downloads, setup, examples and stars; retain historical Kernel sources and existing engineering assets.

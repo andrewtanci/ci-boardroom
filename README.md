@@ -4,7 +4,7 @@
 
 Continuation Intelligence brings CI Kernel continuity instructions and Boardroom decision-support instructions together in one package. Start directly. You do not need a separate Kernel installation or a sequence of book chapters.
 
-**Continuity & Recovery candidate: 1.3.0-rc.1.** This branch prepares a reviewed-checkpoint workflow and recovery guides. It is not a published release. The stable `main` package remains 1.2.0 until review and approval.
+**Continuity & Recovery candidate: 1.3.0-rc.2.** This branch prepares checkpoint/recovery guides and clarifies how to distinguish uncertain interacting factors from verified hard constraints. It is not a published release. The stable `main` package remains 1.2.0 until review and approval.
 
 ## Try CI
 
@@ -16,7 +16,7 @@ For a one-chat trial, use the [complete copy/paste text](downloads/Continuation%
 
 This repository is the main home for CI downloads, demos, releases and stars. [SkillsNova's CI download page](https://skillsnova.sg/#bonus) provides public setup context and may continue to serve the stable package during candidate review. The [Kernel repository](https://github.com/andrewtanci/ci-perpetual-kernel) retains historical component sources; no separate install is needed.
 
-The [download checksums](downloads/SHA256SUMS) verify exact files. See the [release candidate notes](docs/RELEASE-CANDIDATE-1.3.0-rc.1.md) for checks, limits and remaining approval steps.
+The [download checksums](downloads/SHA256SUMS) verify exact files. See the [release candidate notes](docs/RELEASE-CANDIDATE-1.3.0-rc.2.md) for checks, limits and remaining approval steps.
 
 ## Continue in a new chat
 

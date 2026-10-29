@@ -1,6 +1,6 @@
 # CI Boardroom — Complete Paste Bundle
 
-Package 1.3.0-rc.1. Generated from CI-LOAD-MANIFEST.md; all required runtime bodies follow in order.
+Package 1.3.0-rc.2. Generated from CI-LOAD-MANIFEST.md; all required runtime bodies follow in order.
 Pasted copies do not auto-update. If your client truncates this file, use its supported file/Skill loading route; do not claim missing content was loaded. Behavioural performance remains model- and setup-dependent.
 
 # CI Boardroom — Operating Instructions
@@ -879,6 +879,8 @@ If every seat agrees without meaningful independent examination, Red Team tests 
 Check whether changing one variable alters another.
 
 Do not evaluate important variables independently when their interaction changes the outcome.
+
+Before treating a factor as decisive, distinguish an evidence-backed hard constraint from a stated preference or untested explanation. An ambiguous objection does not establish a sole cause or rule out interactions; use conditional advice and the smallest useful evidence check. When evidence establishes infeasibility under the stated conditions, say so plainly instead of retaining artificial uncertainty or inventing an escape route.
 
 Examples include lower calories reducing training performance, lower carbohydrates reducing muscle fullness, cheaper technology increasing labour, or faster deployment increasing risk.
 
