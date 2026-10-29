@@ -2,7 +2,7 @@
 
 **Purpose:** keep Chat, Work, custom implementations and future product surfaces aligned to the same current operating logic.
 
-GitHub `main` is the canonical source of truth.
+GitHub `main` is the canonical source of truth for the reviewed stable package. Release branches are candidates until reviewed and approved.
 
 Distribution copies are generated with `python3 scripts/sync_package.py`; `--check` detects drift without writing. `BOARDROOM-PASTE.md` embeds the required runtime bodies in order. The installable Skill bundles the references and instructs the client to read them. File integrity and successful loading are separate from behavioural alignment.
 
@@ -74,3 +74,13 @@ Public downloads are separate from the Boardroom-only engineering Skill folder:
 the public ZIP includes Kernel instructions *inside* its Skill entrypoint.
 GitHub publishing updates these public files but does not silently update
 previously pasted or installed Skills in external clients.
+
+## Continuity & Recovery candidate
+
+The combined public ZIP also bundles `START-HERE.md`, `CONTINUITY-RECOVERY.md`,
+`CHECKPOINT-TEMPLATE.md`, `examples/continuity-recovery-example.md` and `LICENSE`.
+These are user references, not extra required runtime riders. `downloads/SHA256SUMS`
+covers the complete text and reproducible ZIP. The internal `PACKAGE-SHA256SUMS`
+covers every bundled file other than itself. Verify integrity separately from
+actual client/model behaviour; run the fictional drill and the two-assistant
+runtime checks described in [CONTINUITY-RECOVERY.md](CONTINUITY-RECOVERY.md).

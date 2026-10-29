@@ -12,7 +12,7 @@ Core lines:
 
 > AI can do the work. AI cannot take the authority.
 
-Users can paste BOARDROOM.md and type their task in plain words. Commands are optional shortcuts only. CI Boardroom forms dynamic role-based expert seats for the exact task and niche, not a fixed mandatory role list. The user or named human decision-owner remains the final decision-owner. It uses only four authority flags: Assist, Advise, Approve, and Stop / Escalate.
+Start with the combined Continuation Intelligence download and [setup guide](START-HERE.md), then type a task in plain words. The copy/paste text includes the public Kernel, Boardroom and required riders. `BOARDROOM.md` alone is incomplete; see [CI-LOAD-MANIFEST.md](CI-LOAD-MANIFEST.md). Commands are optional shortcuts only. CI Boardroom forms dynamic role-based expert seats for the exact task and niche, not a fixed mandatory role list. The user or named human decision-owner remains the final decision-owner. It uses only four authority flags: Assist, Advise, Approve, and Stop / Escalate.
 
 ## Example 1: Employment Letter Drafting
 
