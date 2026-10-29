@@ -63,8 +63,11 @@ matrix does not replace, rescore or erase that first experiment.
 
 This matrix did not test the ZIP in a live client or install/discover a Skill in
 ChatGPT or Claude. The earlier rc.1 checkpoint trial tested two native loading
-routes only for its bounded fixture. It is not a new rc.2 installation or
-continuity pass. Real experts did not participate.
+routes with the corrupted checkpoint explicitly announced and the restored file
+re-supplied. It demonstrated cued conflict handling and reload, not unnoticed
+corruption discovery or assistant-executed Git rollback. These observations are
+separate from the 17 engineering/recovery tests and are not a new rc.2
+installation or continuity pass. Real experts did not participate.
 
 ## Candidate disposition
 
