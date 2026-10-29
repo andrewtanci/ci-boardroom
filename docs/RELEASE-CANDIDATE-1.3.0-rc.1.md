@@ -72,11 +72,14 @@ novelty, authority failures and cost separately. No scores are asserted.
 ## Required before a public release
 
 1. Andrew reviews the exact diff, package, examples, MIT licence and boundaries.
-2. Run the [fictional case and relevant behavioural regressions](../CONTINUITY-RECOVERY.md)
-   in two actual target assistant setups. Record app, model/version, date,
-   complete-load evidence, package hash, responses, failures and corrected reload.
-   **Status: NOT RUN.** The available repository tools do not provide those host
-   assistant runtimes. No client installation or activation is claimed.
+2. The team runs the [exact native-session QA inputs](RUNTIME-QA-RUNBOOK.md)
+   and relevant behavioural regressions. Record host, model/version where exposed,
+   date, actual loading evidence, package/input hashes, first responses, failures
+   and corrected reload. **Status: NOT RUN in this repository report.** Independent
+   native sessions can supply bounded diagnostic evidence; they do not establish
+   installation/discovery in ChatGPT or Claude. Those third-party activation
+   controls are unavailable through the repository connector. QA execution is
+   team-owned and is not assigned to Andrew.
 3. After the runtime evidence and human approval, finalize the version, regenerate
    the package/checksums and repeat integrity checks on the exact proposed commit.
 4. Review and merge through the normal human-owned process. Creating a tag,
